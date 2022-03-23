@@ -5,7 +5,7 @@ programa
 	
 	funcao inicio ()
 	{
-		
+		//Password - Username//
 		inteiro acess
 		
 		caracter opcao
