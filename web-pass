@@ -1,0 +1,62 @@
+programa
+{
+	inclua biblioteca Util
+	
+	
+	funcao inicio ()
+	{
+		
+		inteiro acess
+		
+		caracter opcao
+		
+		
+		//Opções de chamar acesso, permissão//
+		escreva("Página de Acesso: ---- ]\n")
+		escreva("Ajuda       [0]\n")
+		escreva("Senha       [1]\n")
+		escreva("Recuperação [2]\n")
+		escreva("Número .... :")
+		leia(opcao)
+		escreva("..........." + "[" + opcao + "^]\n")
+		
+		//Escolha do processo//
+		escolha (opcao) {
+			
+			//Início caso 0 informações//
+			caso '0':
+			
+			escreva("hdkd")
+			
+			pare
+
+            //Início caso 1 acesso senha//
+			caso '1':
+			
+			escreva("Informe senha: ")
+			leia(acess)
+			
+			se(acess >= 1000 e acess <= 10000 e acess == 8790) {
+				escreva("[" + acess + "]" + " .......[ ^ ]\n")
+				escreva("Processando . . . .")
+				Util.aguarde(2000)
+				limpa()
+				escreva("[ Bem vindo... ]")
+				//Insira conteúdo abaixo de "Bem vindo!"//
+		    }senao{
+				escreva("Faça processo novamente!")
+		}
+		    pare
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+}
